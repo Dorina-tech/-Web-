@@ -204,7 +204,7 @@ gap: 15px;
     box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid #335E94;
-    border-color: #335E994 !important;
+    border-color: #335E9940 !important;
 }
 
 .input-form {
@@ -251,15 +251,19 @@ gap: 15px;
 
     transition: 0.3s all;
 
-    .materiale a:hover {
-        transform: scale(1.05);
-        box-shadow: #1f6bc95b 0px 7px 29px 0px;
-    }
+    
 
 
 }
+
+.materiale a:hover {
+    transform: scale(1.05);
+    box-shadow: #1f6bc95b 0px 7px 29px 0px;
+}
+
 .materiale img {
-    height: 140px;;
+    height: 100px;
+    max-width: 100%;
 }
 
 
